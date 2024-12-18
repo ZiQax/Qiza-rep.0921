@@ -1,0 +1,106 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #333131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    position: relative;
+    left: 150px;
+    font-size: 30px;
+}
+
+.input-group {
+    position: relative;
+    display: block;
+    margin: 0px;
+    width: 90%;
+    padding: 10;
+    left: 10px;
+    top: 50px;
+
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: px;
+    margin-bottom: 30px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+    outline: none;
+    font-size: 15px;
+}
+
+
+button {
+    position: relative;
+    top: 50px;
+    width: 50%;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    left: -20px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #593863;
+}
+
+#message {
+    color: red;
+    margin-top: 10px;
+    position: relative;
+    top: 10;
+    left: 50px;
+}
+
+a {
+    position: relative;
+    top: -37px;
+    left: 250px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#check > label{
+    display: inline;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: 15px;
+}
+
+#check > #chk{
+    display: inline;
+    position: relative;
+    left: -70px;
+    top: 30px;
+    width: 17px;
+}
