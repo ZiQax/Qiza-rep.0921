@@ -1,26 +1,21 @@
-* {
-    font-family: "Poppins", sans-serif;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color:  #261b29;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
     height: 100vh;
     margin: 0;
-    padding-left: 50px;
+    padding-top: 100px;
 }
 
 #login-container {
     background: #2f2233;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 23px;
     border-radius: 7px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 700px;
     justify-content: center;
     border-radius: 10px;
 }
@@ -28,8 +23,8 @@ body {
 h2 {
     margin-bottom: 10px;
     position: relative;
-    left: 150px;
-    font-size: 30px;
+    left: 180px;
+    font-size: 27px;
     color: white;
 }
 
@@ -82,7 +77,7 @@ input:focus ~ label {
 }
 button {
     position: relative;
-    top: 50px;
+    top: 70px;
     width: 50%;
     padding: 10px;
     background-color: rebeccapurple;
@@ -90,8 +85,8 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    left: -30px;
-    font-size: 15px;
+    left: 120px;
+    font-size: 18px;
 }
 
 button:hover {
@@ -106,27 +101,26 @@ button:hover {
     left: 80px;
 }
 
-a {
+.fa-user {
     position: relative;
-    top: -15px;
-    left: 250px;
-    text-decoration: none;
-    font-size: 15px;
-    color: beige;
+    left: 442px;
+    font-size: 17px;
+    top: 40px;
+    color: white;
 }
 
-#check > label{
-    display: inline;
+.fa-mobile {
     position: relative;
-    left: 40px;
-    top: 20px;
-    font-size: 15px;
+    left: 443px;
+    font-size: 19px;
+    top: 40px;
+    color: rgb(180, 173, 173)
 }
 
-#check > #chk{
-    display: inline;
+.fa-envelope {
     position: relative;
-    left: -80px;
-    top: 35px;
-    width: 17px;
+    left: 442px;
+    font-size: 19px;
+    top: 40px;
+    color: rgb(180, 173, 173)
 }

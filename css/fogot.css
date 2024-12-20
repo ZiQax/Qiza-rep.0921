@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #333131;
+    background-color:  #261b29;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,18 +13,22 @@ body {
 }
 
 #login-container {
-    background: white;
+    flex-wrap: wrap;
+    background:  #2f2233;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 280px;
     justify-content: center;
     border-radius: 10px;
 }
 
 .poho {
-    display: block;
+    display: flex-box;
+    position: relative;
+    left: 70px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -33,50 +37,72 @@ h2 {
     margin-bottom: 20px;
     position: relative;
     left: 150px;
-    font-size: 28px;
+    font-size: 25px;
     top: -10px;
+    color: white;
 }
 
 span {
     position: relative;
-    left: 25px;
+    left: 60px;
     font-size: 15px;
-    top: -15px;
+    top: -20px;
+    color: white;
 }
 
 .input-group {
     position: relative;
     display: block;
     margin: 0px;
-    width: 90%;
-    padding: 10;
-    left: 10px;
+    width: 95%;
+    padding-left: 13px;
+    left: 0px;
     top: 50px;
 
 }
 
 input {
     position: relative;
-    top: -40px;
+    flex-wrap: wrap;
+    top: -45px;
     width: 100%;
-    padding: 10px;
-    border-radius: 5px;
+    padding-left: 10px;
+    border-radius: 7px;
     margin-bottom: -10px;
-    height: 30px;
+    height: 40px;
     font-size: 15px;
     height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(202, 201, 204);
+}
+
+label {
+    position: relative;
+    top: -83px;
+    left: 5px;
+    padding: 10px;
+    transition: 0.5s;
+    color: white;
+    background-color:  #2f2233;
+}
+
+input:valid ~ label,
+input:focus ~ label {
+    top: -110px;
+    font-size: 13px;
 }
 
 button {
     position: relative;
-    top: 0px;
-    width: 80%;
-    padding: 10px;
+    top: -10px;
+    width: 50%;
+    padding: 7px;
     background-color: rebeccapurple;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    left: 36px;
-    font-size: 15px;
+    left: 60px;
+    font-size: 20px;
+    word-wrap: normal;
 }
