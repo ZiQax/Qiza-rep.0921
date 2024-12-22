@@ -4,33 +4,38 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color:  #261b29;
+    background-color:  #1e1a1f;
     display: flex;
     justify-content: left;
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding-left: 50px;
+
+.welcome {
+    position: relative;
+    left: 700px;
+    color: red;
+    font-size: 70px;
 }
 
+
 #login-container {
-    background: #2f2233;
+    background: #2f2233a2;
     flex-wrap: wrap;
     padding: 20px;
     border-radius: 7px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    height: 500px;
+    width: 420px;
+    height: 550px;
     justify-content: center;
     border-radius: 10px;
 }
 
 h2 {
-    margin-bottom: 10px;
-    position: relative;
-    left: 150px;
-    font-size: 30px;
-    color: white;
+   position: relative;
+   font-size: 35px;
+   color: white;
+   left: 20px;
 }
 
 .input-group {
@@ -39,7 +44,7 @@ h2 {
     margin: 0px;
     width: 90%;
     padding: 10px;
-    top: 40px;
+    top: 10px;
 
 }
 
@@ -65,32 +70,43 @@ input:focus {
 }
 
 label {
-    position: absolute;
-    top: 25px;
+    position: relative;
+    top: -55px;
     left: 10px;
     padding: 5px;
     transition: 0.5s;
     color: antiquewhite;
+    font-size: 17px;
     
 }
 
 input:valid ~ label,
 input:focus ~ label {
-    top: 0px;
+    top: -80px;
     font-size: 12px;
     color: #f5e1fc;
 }
 button {
     position: relative;
-    top: 50px;
-    width: 50%;
-    padding: 10px;
+    top: -20px;
+    width: 80%;
+    padding: 5px;
     background-color: rebeccapurple;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    left: -30px;
+    left: 0px;
+    font-size: 17px;
+    margin-left: 40px;
+}
+
+button > a {
+    position: relative;
+    left: -0px;
+    top: 0px;
+    font-weight: 600;
+    word-spacing: 10px;
     font-size: 15px;
 }
 
@@ -108,25 +124,409 @@ button:hover {
 
 a {
     position: relative;
-    top: -15px;
-    left: 250px;
+    top: -67px;
+    left: 259px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     color: beige;
 }
 
 #check > label{
     display: inline;
     position: relative;
-    left: 40px;
-    top: 20px;
-    font-size: 15px;
+    left: 45px;
+    top: -35px;
+    font-size: 14px;
 }
 
 #check > #chk{
     display: inline;
     position: relative;
-    left: -80px;
-    top: 35px;
-    width: 17px;
+    left: -70px;
+    top: -19px;
+    width: 15px;
+}
+
+.fa-user {
+    position: relative;
+    left: 352px;
+    font-size: 17px;
+    top: 40px;
+    color: white;
+}
+
+.fa-facebook-f {
+    font-size: 20px;
+    color: white;
+}
+
+.fa-instagram {
+    font-size: 22px;
+    color: white;
+}
+
+.fa-google {
+    font-size: 20px;
+    color: white;
+}
+
+#medsos {
+   position: relative;
+   left: -175px;
+   top: 90px;
+}
+
+#medsos > a > i {
+    margin-left: 25px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 50px;
+}
+
+@media (min-width : 640px) {
+    body {
+     background-color: rgb(22, 18, 26);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 0px;
+    }
+    #login-container {
+     background: #2f2233a2;
+     flex-wrap: wrap;
+     padding: 20px;
+     border-radius: 7px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 400px;
+     height: 500px;
+     justify-content: center;
+     border-radius: 10px;
+ }
+ 
+ h2 {
+     position: relative;
+     font-size: 25px;
+     color: white;
+     left: 10px;
+  }
+  
+  .input-group {
+      position: relative;
+      display: block;
+      margin: 0px;
+      width: 90%;
+      padding: 10px;
+      top: 10px;
+  
+  }
+  
+  
+  input {
+      width: 100%;
+      padding: 10px;
+      border-radius: px;
+      margin-bottom: 10px;
+      background-color: transparent;
+      height: 30px;
+      border: none;
+      border-bottom: 2px solid rgb(120, 95, 160);
+      outline: none;
+      font-size: 15px;
+      transition: 0.5s;
+      color: whitesmoke;
+  }
+  
+  input:focus {
+      border-bottom: 1px solid rgb(234, 229, 238);
+      transform: scaleX(100%)
+  }
+  
+  label {
+      position: relative;
+      top: -55px;
+      left: 10px;
+      padding: 5px;
+      transition: 0.5s;
+      color: antiquewhite;
+      font-size: 13px;
+      
+  }
+  
+  input:valid ~ label,
+  input:focus ~ label {
+      top: -80px;
+      font-size: 12px;
+      color: #f5e1fc;
+  }
+  button {
+      position: relative;
+      top: -20px;
+      width: 80%;
+      padding: 5px;
+      background-color: rebeccapurple;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      left: 0px;
+      font-size: 17px;
+      margin-left: 40px;
+  }
+  
+  button:hover {
+      background-color: #593863;
+  }
+  
+  #message {
+      color: red;
+      margin-top: -15px;
+      position: relative;
+      top: -7px;
+      left: 80px;
+  }
+  
+  a {
+      position: relative;
+      top: -67px;
+      left: 280px;
+      text-decoration: none;
+      font-size: 12px;
+      color: beige;
+  }
+  
+  #check > label{
+      display: inline;
+      position: relative;
+      left: 40px;
+      top: -40px;
+      font-size: 12px;
+  }
+  
+  #check > #chk{
+      display: inline;
+      position: relative;
+      left: -60px;
+      top: -30px;
+      width: 15px;
+  }
+  
+  .fa-user {
+      position: relative;
+      left: 352px;
+      font-size: 17px;
+      top: 40px;
+      color: white;
+  }
+  
+  .fa-facebook-f {
+      font-size: 20px;
+      color: white;
+  }
+  
+  .fa-instagram {
+      font-size: 22px;
+      color: white;
+  }
+  
+  .fa-google {
+      font-size: 20px;
+      color: white;
+  }
+  
+  #medsos {
+     position: relative;
+     left: -150px;
+     top: 90px;
+  }
+  
+  #medsos > a > i {
+      margin-left: 25px;
+  }
+  
+  .Logo {
+      display: flex;
+      justify-content: center;
+  }
+  
+  img {
+      width: 40px;
+  }
+ 
+ }
+
+@media (min-width : 500px) {
+   body {
+    background-color: rgb(22, 18, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+   }
+   #login-container {
+    background: #2f2233a2;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h2 {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    left: 10px;
+ }
+ 
+ .input-group {
+     position: relative;
+     display: block;
+     margin: 0px;
+     width: 90%;
+     padding: 10px;
+     top: 10px;
+ 
+ }
+ 
+ 
+ input {
+     width: 100%;
+     padding: 10px;
+     border-radius: px;
+     margin-bottom: 10px;
+     background-color: transparent;
+     height: 30px;
+     border: none;
+     border-bottom: 2px solid rgb(120, 95, 160);
+     outline: none;
+     font-size: 15px;
+     transition: 0.5s;
+     color: whitesmoke;
+ }
+ 
+ input:focus {
+     border-bottom: 1px solid rgb(234, 229, 238);
+     transform: scaleX(100%)
+ }
+ 
+ label {
+     position: relative;
+     top: -55px;
+     left: 10px;
+     padding: 5px;
+     transition: 0.5s;
+     color: antiquewhite;
+     font-size: 13px;
+     
+ }
+ 
+ input:valid ~ label,
+ input:focus ~ label {
+     top: -80px;
+     font-size: 12px;
+     color: #f5e1fc;
+ }
+ button {
+     position: relative;
+     top: -20px;
+     width: 80%;
+     padding: 5px;
+     background-color: rebeccapurple;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     left: 0px;
+     font-size: 17px;
+     margin-left: 40px;
+ }
+ 
+ button:hover {
+     background-color: #593863;
+ }
+ 
+ #message {
+     color: red;
+     margin-top: -15px;
+     position: relative;
+     top: -7px;
+     left: 80px;
+ }
+ 
+ a {
+     position: relative;
+     top: -67px;
+     left: 280px;
+     text-decoration: none;
+     font-size: 12px;
+     color: beige;
+ }
+ 
+ #check > label{
+     display: inline;
+     position: relative;
+     left: 40px;
+     top: -40px;
+     font-size: 12px;
+ }
+ 
+ #check > #chk{
+     display: inline;
+     position: relative;
+     left: -60px;
+     top: -30px;
+     width: 15px;
+ }
+ 
+ .fa-user {
+     position: relative;
+     left: 352px;
+     font-size: 17px;
+     top: 40px;
+     color: white;
+ }
+ 
+ .fa-facebook-f {
+     font-size: 20px;
+     color: white;
+ }
+ 
+ .fa-instagram {
+     font-size: 22px;
+     color: white;
+ }
+ 
+ .fa-google {
+     font-size: 20px;
+     color: white;
+ }
+ 
+ #medsos {
+    position: relative;
+    left: -150px;
+    top: 90px;
+ }
+ 
+ #medsos > a > i {
+     margin-left: 25px;
+ }
+ 
+ .Logo {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ img {
+     width: 40px;
+ }
+
 }
