@@ -188,7 +188,7 @@ img {
 
 @media (max-width : 450px) {
     body {
-     background-color: red;
+     background-color: rebeccapurple;
      display: flex;
      justify-content: center;
      align-items: center;
