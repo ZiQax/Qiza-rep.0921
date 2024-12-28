@@ -186,9 +186,9 @@ img {
     width: 50px;
 }
 
-@media (miax-width : 640px) {
+@media (max-width : 450px) {
     body {
-     background-color: rgb(22, 18, 26);
+     background-color: red;
      display: flex;
      justify-content: center;
      align-items: center;
