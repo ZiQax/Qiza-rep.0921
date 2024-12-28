@@ -186,7 +186,7 @@ img {
     width: 50px;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 900px) {
     body {
      background-color: rebeccapurple;
      display: flex;
@@ -202,7 +202,7 @@ img {
      border-radius: 7px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      width: 450px;
-     height: 1000px;
+     height: 500px;
      justify-content: center;
      border-radius: 10px;
  }
