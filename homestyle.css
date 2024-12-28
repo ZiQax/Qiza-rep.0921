@@ -290,7 +290,7 @@ img {
   a {
       position: relative;
       top: -67px;
-      left: 280px;
+      left: 270px;
       text-decoration: none;
       font-size: 12px;
       color: beige;
@@ -314,7 +314,7 @@ img {
   
   .fa-user {
       position: relative;
-      left: 352px;
+      left: 348px;
       font-size: 17px;
       top: 40px;
       color: white;
@@ -337,7 +337,7 @@ img {
   
   #medsos {
      position: relative;
-     left: -150px;
+     left: -120px;
      top: 90px;
   }
   
