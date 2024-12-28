@@ -186,7 +186,7 @@ img {
     width: 50px;
 }
 
-@media (min-width : 450px) {
+@media (max-width : 450px) {
     body {
      background-color: rebeccapurple;
      display: flex;
