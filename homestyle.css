@@ -196,11 +196,11 @@ img {
     #login-container {
      background: #2f2233a2;
      flex-wrap: wrap;
-     padding: 10px;
+     padding: 15px;
      border-radius: 7px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      width: 90vw;
-     height: 50vh;
+     height: 60vh;
      justify-content: center;
      border-radius: 10px;
  }
@@ -314,7 +314,7 @@ img {
   
   .fa-user {
       position: relative;
-      left: 339px;
+      left: 335px;
       font-size: 17px;
       top: 40px;
       color: white;
