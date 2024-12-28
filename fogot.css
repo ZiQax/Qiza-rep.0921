@@ -106,3 +106,10 @@ button {
     font-size: 20px;
     word-wrap: normal;
 }
+
+@media (max-width : 600px) {
+    #login-container {
+        height: 60vh;
+        width: 90vw;
+    }
+}
